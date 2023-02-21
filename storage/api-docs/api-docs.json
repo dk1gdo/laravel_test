@@ -1,0 +1,20 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "random posts API",
+        "version": "0.1"
+    },
+    "paths": {
+        "/api/mixes": {
+            "get": {
+                "summary": "Get a collection of 10 random posts",
+                "operationId": "5ca86967f3dea5fd8bcb5964b1ea51a5",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    }
+}
